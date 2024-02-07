@@ -22,10 +22,14 @@ function Contador() {
 
   return (
     <>
+    <section class="caixa_maior">
       <h1>{numero}</h1>
+      <div class="caixa_funcionalidades">
       <button onClick ={Adicionar}>+</button>
       <button onClick={Subtrair}>-</button>
       <button onClick={Limpar}>C</button>
+      </div>
+      </section>
     </>
   )
  }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import Contador from "./Contador/Contador.jsx"
+import Contador from "./Componentes/Contador/Contador.jsx"
 
 
 function App() {

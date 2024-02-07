@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.caixa_maior{
+    display: flex;
+    background-color: rgb(155, 155, 113);
+    margin: 2rem;   
+    align-items: center;
+    flex-direction: column;
+    width: 15vw;
+    height: 15vh;
+    border-radius: 15px;
+}
+.caixa_funcionalidades{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    width: auto;
+}
+button{
+    border-radius: 25px;
+
+}
+h1{
+    color: rgb(8, 2, 2);
+    font-size: 3rem;
+}
